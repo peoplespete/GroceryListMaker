@@ -5,7 +5,7 @@ $(document).ready(initialize);
 
 var app_id = "8f303a51";
 var app_key = "aff06d00c9a604466f6f1cd0e42927c7";
-var apiBase = "http://api.yummly.com/v1/api";
+var apiBase = "https://api.yummly.com/v1/api";
 var authentication = "_app_id=" + app_id + "&_app_key=" + app_key;
 var recipes = [];
 var matches;
