@@ -25,8 +25,11 @@ function clickSearch(){
   matches = [];
   $('#searchMatches').empty();
   var searchTerm = getValue('#searchTerm');
+  if(searchTerm == ""){ return null; }
   searchTerm = searchTerm.replace(/ /g, '+');
+  console.log(searchTerm)
   var url = apiBase + "/recipes?" + authentication + "&q=" + searchTerm;
+  console.log(url)
   var goodMatches = false;
   $.ajax({type: "GET", url: url, dataType: "jsonp", success: function (data) {
       for(var i = 0 ; i < data.matches.length; i++){
@@ -41,6 +44,7 @@ function clickSearch(){
       }
       matches = data.matches;
       if(goodMatches){
+
         $('#searchMatches').show().removeClass('hidden');
         $('#searchTerm').focus();
       }
@@ -84,7 +88,7 @@ function clickRecipe(){
       $('#searchMatches').empty();
       $('#searchTerm').focus();
       $('body').on('keydown', keypressMove);
-      $('#openLinksButton').show().removeClass('hidden');
+      // $('#openLinksButton').show().removeClass('hidden');
       clickPrint();
     }
   });
