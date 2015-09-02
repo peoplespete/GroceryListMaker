@@ -9,7 +9,7 @@ Having recently become a vegetarian, I want to use some new recipes.  The frustr
 
 Where is it?
 ------
-Click here to try the application: (GroceryListMaker)[https://rawgit.com/peoplespete/GroceryListMaker/master/index.html
+Click here to try the application: (GroceryListMaker)[https://rawgit.com/peoplespete/GroceryListMaker/master/index.html]
 
 
 How To Use
