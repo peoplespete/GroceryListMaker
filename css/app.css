@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: #FFF;
+  background-image: url('../images/grocery-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: underline;
+  text-align: center;
+}
+#content {
+  margin: 50px 0;
+  padding: 0 20px;
+  background-color: rgba(3,182,255,0.8);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+#searchTerm {
+  width: 60%;
+}
+#searchTerm,
+#searchButton {
+  display: inline-block;
+}
+#searchButton {
+  margin-left: 6%;
+}
+#groceryList {
+  margin: 20px;
+  list-style-type: none;
+}
+#groceryList li .match {
+  font-size: 1.4em;
+}
+#groceryList li .amount {
+  margin-left: 20px;
+  font-size: 1em;
+}
+#groceryList .alert {
+  margin-right: 5px;
+}
+#searchMatches,
+#chosenRecipes {
+  margin: 20px;
+}
+#searchMatches li,
+#chosenRecipes li {
+  clear: both;
+}
+#searchMatches li:hover,
+#chosenRecipes li:hover {
+  color: #464646;
+}
+#searchMatches li:hover img,
+#chosenRecipes li:hover img {
+  -webkit-box-shadow: 0 0 .2em .2em rgba(3,182,255,0.8);
+  -moz-box-shadow: 0 0 .2em .2em rgba(3,182,255,0.8);
+  box-shadow: 0 0 .2em .2em rgba(3,182,255,0.8);
+}
+#searchMatches li div,
+#chosenRecipes li div {
+  padding-top: 10px;
+  vertical-align: center;
+}
+#searchMatches,
+#chosenRecipes {
+  list-style-type: none;
+  font-size: 1.3em;
+}
+#searchMatches img,
+#chosenRecipes img {
+  margin: 5px 10px;
+  float: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 .2em .2em #333;
+  -moz-box-shadow: 0 0 .2em .2em #333;
+  box-shadow: 0 0 .2em .2em #333;
+}
+#chosenRecipes a {
+  color: #000;
+}
+#chosenRecipes .alert {
+  margin-left: 5px;
+}
+#openLinksButton {
+  margin-top: 20px;
+}
+#find,
+#attribution,
+#choose,
+#list {
+  background-color: rgba(250,250,250,0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#find {
+  padding-bottom: 60px;
+  text-align: center;
+}
+#spacer {
+  min-height: 20px;
+}
+#logo {
+  width: 300px;
+}
+#attribution {
+  font-size: 2em;
+  text-align: center;
+}
+.hidden {
+  display: none;
+  height: 0;
+  margin: 0;
+}
+#search {
+  margin-top: 35px;
+  margin-bottom: -29px;
+  font-size: 1.2em;
+}
