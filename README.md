@@ -7,23 +7,9 @@ Why?
 -----------
 Having recently become a vegetarian, I want to use some new recipes.  The frustrating thing is that when I want to make something from a recipe, I am inevitably missing some random ingredient like condensed milk.  This program allows you to choose a few recipes to use in the coming week and then shop for the ingredients you will need to purchase.
 
-Setup
+Where is it?
 ------
-Run from your command line:
-```
-git clone https://github.com/peoplespete/GroceryListMaker.git
-cd GroceryListMaker
-npm install
-```
-If the npm install will not run without errors try:
-```
-sudo npm install
-```
-If you do not have supervisor, [install supervisor](https://github.com/isaacs/node-supervisor).
-```
-supervisor app
-```
-The app should now be running at localhost:3001
+Click here to try the application: (GroceryListMaker)[https://rawgit.com/peoplespete/GroceryListMaker/master/index.html
 
 
 How To Use
@@ -38,7 +24,7 @@ This web app is designed for anyone who shops for food.
 6. Shop at your favorite store with the grocery list.
 7. Click on the `Open Recipe Links` button to see all your recipe instructions.  (If you would only like to see one set of recipe instructions at a time, simply click on the recipe in the Your Recipes section.)
 
-![alt tag](/public/images/grocery-background.jpg)
+![alt tag](images/grocery-background.jpg)
 
 Additional Resources
 --------------------
