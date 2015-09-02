@@ -22,7 +22,7 @@ This web app is designed for anyone who shops for food.
 4. Repeat steps 2 and 3 until you have all the recipes you'd like.
 5. Now look through the Grocery List and click the `x` on any items that you already have in your pantry.
 6. Shop at your favorite store with the grocery list.
-7. Click on any recipe in the Your Recipes section to see recipe instructions.
+7. Click on any recipe in the Your Recipes section to see instructions.
 
 ![alt tag](images/grocery-background.jpg)
 
